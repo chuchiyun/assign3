@@ -61,7 +61,7 @@ PImage bg1img;
             x3 +=2;
             image(enemyimg,x4,y4);
             x4 +=2;
-            if(x>940){
+            if(x>900){
               x=0;
               y = floor(random(20,400));
               y1=y;
