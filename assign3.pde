@@ -33,8 +33,8 @@ PImage bg1img;
          y1=y;
          y2=y;
          y3=y;
-         y4=y;                               //
-
+         y4=y;       //
+         
         }
         
         void draw(){
