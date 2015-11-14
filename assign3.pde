@@ -24,7 +24,7 @@ PImage bg1img;
         hpimg=loadImage("img/hp.png");
         enemyimg=loadImage("img/enemy.png");
         treasureimg=loadImage("img/treasure.png");
-        x = 0;                                    // 敵機 xy 初始設定
+        x = -60;                                    // 敵機 xy 初始設定
         x1=x-60;
          x2=x-120;
          x3=x-180;
@@ -62,7 +62,7 @@ PImage bg1img;
             image(enemyimg,x4,y4);
             x4 +=2;
             if(x>900){
-              x=0;
+              x=-60;
               y = floor(random(20,400));
               y1=y;
          y2=y;
